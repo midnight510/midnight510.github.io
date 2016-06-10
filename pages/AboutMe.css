@@ -3,7 +3,7 @@ html, body {
 }
 
 .header {
-	background-color: #2fd6bf;
+	background-color: #000000;
 }
 
 .header .thumbnail {
@@ -46,8 +46,8 @@ html, body {
 }
 
 .footer ul.nav a:hover {
-	color: #000000;
-	background-color: #ffffff;
+	color: #ffffff;
+	background-color: #000000;
 }
 
 .footer ul.nav a {
