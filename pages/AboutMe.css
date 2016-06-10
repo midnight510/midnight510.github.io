@@ -1,0 +1,55 @@
+html, body {
+	font-family: "Annie Use Your Telescope", cursive;
+}
+
+.header {
+	background-color: #2fd6bf;
+}
+
+.header .thumbnail {
+	border: none; 
+	background: transparent;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+
+.jumbotron .centerImage {
+	text-align: center;
+	display: block;
+	padding-left: 475px;
+
+}
+
+.jumbotron ul, li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.jumbotron img {
+	border: none;
+	background-color: transparent;
+}
+
+
+
+.footer {
+	background-color: #2fd6bf;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 0px;
+	color: #ffffff;
+}
+
+.footer ul.nav a:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.footer ul.nav a {
+	color: #ffffff;
+}
