@@ -58,20 +58,24 @@ s
 
 <div class="comments">
 <div class="container">
-<div class="col-md-5-offset-3">
+<div class="row">
+<div class="col-xs-6">
 <h2>Leave A Comment </h2>
-<div class="box">
-<ul>
+<form>
+<input type="text" placeholder="comment here" id="text"></input>
+<button type="submit" id="btn">Submit</button>
+</form>
+</div>
+<div class="col-xs-6">
+<ul id="box">
 <li></li>
 </ul>
 </div>
-<form>
-<imput type="text" placeholder="comment here"></imput>
-<button type="submit">Submit</button>
-</form>
 </div>
 </div>
 </div>
+</div>
+
 <div class="footer">
 <div class="container">
 <div class="row">
@@ -88,4 +92,6 @@ s
 </div>
 </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="app.js" type="text/javascript"></script>
 </html>

@@ -48,7 +48,22 @@ font-family: 'Annie Use Your Telescope', cursive;
 	background: transparent;
 }
 
-.footer {
+
+.box {
+	
+	background-color: #000000;
+	color: #2fd6bf;
+}
+
+.box ul {
+	list-style-type: none;
+}
+
+input {
+	background-color: #ffffff;
+}
+
+.footer {	
 	color: #2fd6bf;
 }
 
