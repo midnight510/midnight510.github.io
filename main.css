@@ -49,13 +49,14 @@ font-family: 'Annie Use Your Telescope', cursive;
 }
 
 
-.box {
+#box {
 	
 	background-color: #000000;
 	color: #2fd6bf;
+	font-size: 18px;
 }
 
-.box ul {
+#box ul {
 	list-style-type: none;
 }
 
