@@ -1,16 +1,17 @@
-$(document).ready(function() {
+$(document).ready(function () {
 	
-	var comment = function(text) {
-		return '<li> + text + </li>';
+	var comment = function (text) {
+		return "<li>" + text + "</li>";
 	};
 
-	$('#btn').submit(function(){
-		var usr = $('#text');
+	$("#btn").submit(function () {
+		 
+		 var usr = $("#text").val();
 
-		if (usr !== '') {
-			var com = comment(usr.val());
-			com.appendTo('.box');
-			$('#text').val('');
+		if (usr !== "") {
+			var com = comment(usr);
+			com.append("#box");
+			$("#text").val("");
 		}
 		return false;
 	});
